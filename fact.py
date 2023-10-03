@@ -4,7 +4,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-
+# input taken from user 
 num = int(input("Enter a non-negative integer: "))
 
 if num < 0:
